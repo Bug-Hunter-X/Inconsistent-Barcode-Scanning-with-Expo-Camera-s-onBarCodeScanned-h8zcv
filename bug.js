@@ -1,0 +1,1 @@
+This bug occurs when using Expo's `Camera` component with a custom `onBarCodeScanned` callback.  The callback function is not consistently triggered when scanning barcodes, especially when the barcode is scanned quickly or multiple times in succession.  This results in missed scans and unreliable barcode reading.
